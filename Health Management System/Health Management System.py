@@ -43,6 +43,5 @@ try:
             name_d2 = name+' diet'
             with open(name_d2) as nd2:
                 print(nd2.read())
-except Exception as e:
-    print(e)
+except:
     print("Unexpected Error, Try Again")
